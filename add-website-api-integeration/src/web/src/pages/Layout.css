@@ -1,0 +1,71 @@
+/* Layout.css */
+/* Layout.css */
+
+.dynamic-hr {
+  border: none;
+  height: 4px;
+  background: linear-gradient(to right, #007bff, #006eff 50%, transparent 90%);
+  background-size: 200% 100%;
+  animation: slide 8s linear infinite;
+  margin: 20px 0;
+}
+
+@keyframes slide {
+  from {
+      background-position: 100% 0;
+  }
+  to {
+      background-position: -100% 0;
+  }
+}
+
+/* Layout.css */
+.outlet-container {
+  background: linear-gradient(270deg, #2d2d2d, #1e1e1e, #2d2d2d);
+  background-size: 600% 600%;
+  animation: gradientBackground 15s ease infinite;
+  padding: 20px; /* Optional: add some padding */
+  min-height: calc(100vh - 56px); /* Adjust the height based on your layout */
+}
+
+@keyframes gradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+/* Apply a black background color to the entire navbar */
+.navbar {
+    background-color: black !important;
+  }
+  
+  /* Style the nav links */
+  .nav-link {
+    color: white !important;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Highlight the nav link on hover */
+  .nav-link:hover {
+    background-color: skyblue;
+    color: black !important;
+  }
+  
+  /* Apply a black background color to the page body */
+  body {
+    background-color: black;
+  }
+  
+  /* Optional: Make sure the content inside the Navbar is visible */
+  .navbar-nav {
+    margin-left: auto;
+  }
+  

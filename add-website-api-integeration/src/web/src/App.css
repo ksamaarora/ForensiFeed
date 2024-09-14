@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #1c222e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.form-container {
+  background: #0f2551;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.form-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-button {
+  background-color: #61dafb;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+.form-button:hover {
+  background-color: #21a1f1;
+}
+
+.status-text {
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+.error-text {
+  color: #e74c3c;
+}
+
+.response-container {
+  margin-top: 24px;
+  text-align: left;
+  width: 100%;
+  max-width: 500px;
+  word-wrap: break-word; /* Ensure long words break to the next line */
+  overflow-wrap: break-word; /* Handle overflow within container */
+}
+
+.response-title {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.response-item {
+  margin-bottom: 16px;
+  background-color: #ffffff22; /* Slightly transparent background */
+  padding: 10px;
+  border-radius: 4px;
+  white-space: pre-wrap; /* Preserve whitespace and wrap text */
+  overflow: hidden; /* Hide any overflow */
+  text-overflow: ellipsis; /* Add ellipsis for overflowed text */
+}
+
+.response-item p {
+  margin: 0;
+  padding: 5px 0;
+  word-wrap: break-word; /* Ensure long words break to the next line */
+  overflow-wrap: break-word; /* Handle overflow within container */
+}
